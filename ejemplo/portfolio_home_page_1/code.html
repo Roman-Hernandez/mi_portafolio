@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio Home Page (Software Dev.)</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ede6db",
+                        "accent": "#8fbdd3",
+                        "background-light": "#f7f7f6",
+                        "background-dark": "#1c1a16",
+                        "text-main": "#161513",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-primary text-text-main font-display antialiased selection:bg-accent selection:text-white overflow-x-hidden relative">
+<div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 w-auto">
+<div class="shadow-xl rounded-full overflow-hidden">
+<button class="flex items-center justify-center gap-3 h-14 px-6 bg-accent text-text-main text-base font-bold leading-normal tracking-wide hover:brightness-105 transition-all cursor-move">
+<span class="material-symbols-outlined text-2xl">drag_indicator</span>
+<span class="whitespace-nowrap pr-2">Menu</span>
+<div class="h-4 w-px bg-black/20 mx-1"></div>
+<span class="font-medium hover:underline cursor-pointer">Projects</span>
+<span class="font-medium hover:underline cursor-pointer">Stack</span>
+<span class="font-medium hover:underline cursor-pointer">Contact</span>
+</button>
+</div>
+</div>
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="flex items-center justify-between whitespace-nowrap px-8 py-6 md:px-12 lg:px-20">
+<div class="flex items-center gap-2 text-text-main">
+<span class="material-symbols-outlined text-3xl">terminal</span>
+<h2 class="text-xl font-black tracking-tighter uppercase">Alex.Dev</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<button class="flex items-center justify-center rounded-full h-10 px-6 border-2 border-text-main text-text-main text-sm font-bold hover:bg-text-main hover:text-primary transition-colors">
+<span>Hire Me</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col grow px-6 md:px-12 lg:px-20 pb-32">
+<section class="w-full py-12 md:py-20">
+<div class="flex flex-col-reverse lg:flex-row gap-12 items-center">
+<div class="flex-1 flex flex-col gap-8 text-left max-w-2xl">
+<h1 class="text-5xl md:text-7xl font-black leading-[0.9] tracking-tighter text-text-main">
+                            Engineering scalable software with precision.
+                        </h1>
+<p class="text-lg md:text-xl font-normal leading-relaxed text-text-main/80 max-w-lg">
+                            I'm Alex, a full-stack developer specializing in System Architecture and Frontend Performance. I blend clean code with modern robust frameworks to build reliable applications.
+                        </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="flex items-center justify-center rounded-lg h-12 px-8 bg-text-main text-white text-base font-bold hover:bg-opacity-90 transition-all">
+                                View Projects
+                            </button>
+<button class="flex items-center justify-center rounded-lg h-12 px-8 bg-white border border-text-main/10 text-text-main text-base font-bold hover:bg-gray-50 transition-all">
+                                View GitHub
+                            </button>
+</div>
+</div>
+<div class="w-full lg:w-[480px] shrink-0">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden border-2 border-text-main bg-accent/20 group">
+<div class="absolute inset-0 bg-accent mix-blend-multiply opacity-20 group-hover:opacity-0 transition-opacity duration-500 z-10"></div>
+<div class="w-full h-full bg-center bg-cover bg-no-repeat grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Portrait of the developer in a minimal workspace" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAkyiiB7JY2Df6EgliBGWsuT2NB0qLiDespvRv3R_38iJ4Q7uX1cV2P4XUBVyWVFIJ0rtNBrLWGi0hDCnygg3ctRFqIAiQJcriz4EYkgWjKGyd-zzZaQCb3VzflbtbmDPOxnjifddFHJjf-1Dr_EB-kUjp8HjG7Fh0SzqU_zcxFdLAkZ42NDBDvQ6QLIOc3RMCZ6GVTgNsnLZYtzwdOdQV4CdRG5uYOxRI84dieySQINz_spmv0J-ybkosABY9jqW9xvl-kVlgn5BLu");'>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="w-full border-y border-text-main/10 py-4 mb-20 overflow-hidden">
+<div class="flex gap-12 text-sm font-bold uppercase tracking-widest text-text-main/60 whitespace-nowrap">
+<span>Full Stack Development</span>
+<span>•</span>
+<span>Cloud Infrastructure</span>
+<span>•</span>
+<span>API Design</span>
+<span>•</span>
+<span>Database Optimization</span>
+<span>•</span>
+<span>DevOps</span>
+<span>•</span>
+<span>Full Stack Development</span>
+<span>•</span>
+<span>Cloud Infrastructure</span>
+</div>
+</div>
+<section class="flex flex-col gap-10 mb-24">
+<div class="flex items-end justify-between border-b border-text-main pb-4">
+<h2 class="text-4xl md:text-5xl font-black tracking-tight text-text-main">Selected Projects</h2>
+<span class="text-sm font-bold uppercase tracking-widest mb-2">(2021 — 2024)</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="group cursor-pointer md:col-span-2 relative overflow-hidden rounded-xl bg-white border border-text-main/5 shadow-sm hover:shadow-md transition-all">
+<div class="w-full aspect-video bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Laptop screen displaying a clean e-commerce website code and interface" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAuhcbK4lF03iiz2bQLVekM5Cv7MdNaQKdR6rWNx8NUCZecJ2ivwH3ZseMUDUWpF6bS4F0HJxGXFwmTpm2-QUsnRIGHdn6lnbqMyWhMgcQDt0UegNkNhsmqtKgopNCz9zf0uq48sNW0KW3jyHUnZ9RDMaTReTXSLQF0FlDJLvaEUfzDmWbS4aogKqkqrGZIZEVZNMqOlujPDSZ3OZb6ijKB9DSme05rzm2_n3QVqQB-MTSRsAZxkVQBrTaBdifFx7m78V5iOCNClxxH");'>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent flex items-end justify-between text-white">
+<div>
+<h3 class="text-2xl font-bold">Nordic Market Platform</h3>
+<p class="text-sm opacity-90">Next.js • Node.js • Stripe Integration</p>
+</div>
+<span class="material-symbols-outlined bg-white text-black rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">code</span>
+</div>
+</div>
+<div class="group cursor-pointer md:col-span-1 relative overflow-hidden rounded-xl bg-white border border-text-main/5 shadow-sm hover:shadow-md transition-all">
+<div class="w-full h-full min-h-[300px] bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Mobile application interface showing financial data visualization" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcOtpvxZRANerjD103c9DnM6i-ebiIqFUCoWazgegsdmtJ3P8cF_hQzAjCiMyVoSF-F0vD3CXedkR6crMn57yQjxmxrlmOmDQg7pawc0rqB7cGzGyfYa1e4LUN3KWsp-DxZV9G3p5TZh9nge67eBB3OZHFrgKs_QPy8ix1AnuRG3bU97LVw9XlfaNOxXaw2lj7CpTc-IwiGJc9yIg0yKWkEkbVbNyd9dtheuptlphOKLrbb1bEM3LhG502fWS6nY-YxzCsWZlff9x8");'>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent flex items-end justify-between text-white">
+<div>
+<h3 class="text-xl font-bold">Fintech API Gateway</h3>
+<p class="text-sm opacity-90">Python • FastAPI • Docker</p>
+</div>
+<span class="material-symbols-outlined bg-white text-black rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">code</span>
+</div>
+</div>
+<div class="group cursor-pointer relative overflow-hidden rounded-xl bg-white border border-text-main/5 shadow-sm hover:shadow-md transition-all">
+<div class="w-full aspect-square bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist booking system interface" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBmTItD8NhSvQsjgpmW2zd-yRbMfPKSwa8LXlFnYJocS2jkt7gEouUxvC-IQtBkFxigXiVDdPJQqO3qGK4rSkX3P5N8z4ioPiLbVV5uJURgwbUEC2XGBaligc664MqPG2cODwnonXWYosRL0aHX90MckCWr4kHN4ax52gMlMREwd3GWjxavnYo9Xh1UWFiTxObFzdN0wEjThopF8ikOL33t0rAR8fSpNVMwnyaXlx-2CWy9B-I2fr_Dz9iE3Z__riXIFcTB_meCP1El");'>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent flex items-end justify-between text-white">
+<div>
+<h3 class="text-xl font-bold">Oasis Reservation Core</h3>
+<p class="text-sm opacity-90">Go • PostgreSQL • gRPC</p>
+</div>
+<span class="material-symbols-outlined bg-white text-black rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">code</span>
+</div>
+</div>
+<div class="group cursor-pointer relative overflow-hidden rounded-xl bg-white border border-text-main/5 shadow-sm hover:shadow-md transition-all">
+<div class="w-full aspect-square bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Close up of a modern dashboard with data charts" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWMwU381sIkbS3jMvA9Yjhry_5flX-796W6Ifch_zdIIq7Q44rWo7Z5dNPE9Wg8nVZfwXBeDtDxytagSwx9qpA1EObK5ErsvDcR-Z2ui7iIQtnZ8u9K73n8Lie0CT4ZbLNBU6dE-ttboponKVRpBIzGHwMfdDADWAUxreFcDbSUx5bPi9rIxr_luL8RMXHKABFbiL96wPnnM5bHblUTRkzrsGALOnIIpBEE_YUmumWVd0-o5W-iKXFoKzEOuF9a1Lg5TE1PbAI5npi");'>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent flex items-end justify-between text-white">
+<div>
+<h3 class="text-xl font-bold">Data Analytics Engine</h3>
+<p class="text-sm opacity-90">Vue.js • D3.js • WebSockets</p>
+</div>
+<span class="material-symbols-outlined bg-white text-black rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">code</span>
+</div>
+</div>
+<div class="group cursor-pointer flex flex-col justify-center items-center p-8 text-center relative overflow-hidden rounded-xl bg-accent text-text-main shadow-sm hover:shadow-md transition-all">
+<h3 class="text-3xl font-black mb-2">View Repos</h3>
+<p class="font-medium mb-6">See 40+ more on GitHub</p>
+<span class="material-symbols-outlined text-4xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</div>
+</div>
+</section>
+<section class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 py-20 border-t border-text-main/10">
+<div class="md:col-span-4">
+<h2 class="text-3xl md:text-4xl font-black tracking-tighter sticky top-24">About Me</h2>
+</div>
+<div class="md:col-span-8 flex flex-col gap-8">
+<p class="text-xl md:text-2xl font-medium leading-relaxed">
+                        I believe that good code is readable. It doesn't hide behind complexity but stands on the solid foundation of logic and efficiency.
+                    </p>
+<div class="text-lg text-text-main/80 leading-relaxed space-y-6">
+<p>
+                            With over 8 years of experience in the software industry, I've had the privilege of architecting systems for startups and established tech companies alike. My approach is deeply rooted in performance and scalability, but I always ensure the codebase remains maintainable for future developers.
+                        </p>
+<p>
+                            When I'm not pushing commits to Git, you can find me exploring vintage electronics, reading sci-fi novels, or optimizing my home server setup.
+                        </p>
+</div>
+<div class="grid grid-cols-2 gap-8 mt-8">
+<div>
+<h4 class="font-bold uppercase tracking-widest text-sm mb-4 border-b border-text-main/20 pb-2">Expertise</h4>
+<ul class="space-y-2">
+<li>Full Stack Development</li>
+<li>System Architecture</li>
+<li>Cloud Solutions (AWS/GCP)</li>
+<li>Technical Consulting</li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold uppercase tracking-widest text-sm mb-4 border-b border-text-main/20 pb-2">Connect</h4>
+<ul class="space-y-2">
+<li><a class="hover:text-accent" href="#">GitHub</a></li>
+<li><a class="hover:text-accent" href="#">LinkedIn</a></li>
+<li><a class="hover:text-accent" href="#">Twitter / X</a></li>
+<li><a class="hover:text-accent" href="#">Stack Overflow</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-[#1c1a16] text-[#ece5da] px-6 md:px-12 lg:px-20 py-20">
+<div class="flex flex-col gap-12">
+<div class="flex flex-col gap-2">
+<p class="text-sm font-bold uppercase tracking-widest opacity-60">Have a project?</p>
+<a class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter hover:text-accent transition-colors" href="mailto:hello@alex.dev">
+                        Let's build<br/>something.
+                    </a>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 pt-12 border-t border-white/10">
+<div class="flex flex-col gap-1">
+<span class="font-bold text-lg">Alex.Dev</span>
+<span class="opacity-60 text-sm">© 2024 All Rights Reserved.</span>
+</div>
+<div class="flex gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="text-sm">Local time: 10:42 AM</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-sm">San Francisco, CA</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

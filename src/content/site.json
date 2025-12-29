@@ -1,0 +1,143 @@
+{
+  "branding": {
+    "logoText": "Román Hernandéz",
+    "hireLabel": "Contacto",
+    "location": "Pereira, Colombiay"
+  },
+  "navigation": [
+    { "label": "Inicio", "path": "/" },
+    { "label": "Proyectos", "path": "/projects" },
+    { "label": "Stack", "path": "/stack" },
+    { "label": "Contacto", "path": "/contact" }
+  ],
+  "hero": {
+    "headline": "Desarrollador de software.",
+    "subhead": "Soy Román, desarrollador de software especializado en servicios web.",
+    "primaryCta": {
+      "label": "Ver proyectos",
+      "href": "/projects"
+    },
+    "secondaryCta": {
+      "label": "Ver GitHub",
+      "href": "https://github.com/Roman-Hernandez"
+    },
+    "portrait": {
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuAkyiiB7JY2Df6EgliBGWsuT2NB0qLiDespvRv3R_38iJ4Q7uX1cV2P4XUBVyWVFIJ0rtNBrLWGi0hDCnygg3ctRFqIAiQJcriz4EYkgWjKGyd-zzZaQCb3VzflbtbmDPOxnjifddFHJjf-1Dr_EB-kUjp8HjG7Fh0SzqU_zcxFdLAkZ42NDBDvQ6QLIOc3RMCZ6GVTgNsnLZYtzwdOdQV4CdRG5uYOxRI84dieySQINz_spmv0J-ybkosABY9jqW9xvl-kVlgn5BLu",
+      "alt": "Portrait of the developer in a minimal workspace"
+    }
+  },
+  "marquee": [
+    "Full Stack Development",
+    "Cloud Infrastructure",
+    "API Design",
+    "Database Optimization",
+    "DevOps"
+  ],
+  "projects": {
+    "period": "2021 — 2024",
+    "items": [
+      {
+        "title": "Nordic Market Platform",
+        "stack": "Next.js • Node.js • Stripe Integration",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAuhcbK4lF03iiz2bQLVekM5Cv7MdNaQKdR6rWNx8NUCZecJ2ivwH3ZseMUDUWpF6bS4F0HJxGXFwmTpm2-QUsnRIGHdn6lnbqMyWhMgcQDt0UegNkNhsmqtKgopNCz9zf0uq48sNW0KW3jyHUnZ9RDMaTReTXSLQF0FlDJLvaEUfzDmWbS4aogKqkqrGZIZEVZNMqOlujPDSZ3OZb6ijKB9DSme05rzm2_n3QVqQB-MTSRsAZxkVQBrTaBdifFx7m78V5iOCNClxxH",
+        "emphasis": "wide"
+      },
+      {
+        "title": "Fintech API Gateway",
+        "stack": "Python • FastAPI • Docker",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBcOtpvxZRANerjD103c9DnM6i-ebiIqFUCoWazgegsdmtJ3P8cF_hQzAjCiMyVoSF-F0vD3CXedkR6crMn57yQjxmxrlmOmDQg7pawc0rqB7cGzGyfYa1e4LUN3KWsp-DxZV9G3p5TZh9nge67eBB3OZHFrgKs_QPy8ix1AnuRG3bU97LVw9XlfaNOxXaw2lj7CpTc-IwiGJc9yIg0yKWkEkbVbNyd9dtheuptlphOKLrbb1bEM3LhG502fWS6nY-YxzCsWZlff9x8",
+        "emphasis": "tall"
+      },
+      {
+        "title": "Oasis Reservation Core",
+        "stack": "Go • PostgreSQL • gRPC",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBmTItD8NhSvQsjgpmW2zd-yRbMfPKSwa8LXlFnYJocS2jkt7gEouUxvC-IQtBkFxigXiVDdPJQqO3qGK4rSkX3P5N8z4ioPiLbVV5uJURgwbUEC2XGBaligc664MqPG2cODwnonXWYosRL0aHX90MckCWr4kHN4ax52gMlMREwd3GWjxavnYo9Xh1UWFiTxObFzdN0wEjThopF8ikOL33t0rAR8fSpNVMwnyaXlx-2CWy9B-I2fr_Dz9iE3Z__riXIFcTB_meCP1El",
+        "emphasis": "square"
+      },
+      {
+        "title": "Data Analytics Engine",
+        "stack": "Vue.js • D3.js • WebSockets",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCWMwU381sIkbS3jMvA9Yjhry_5flX-796W6Ifch_zdIIq7Q44rWo7Z5dNPE9Wg8nVZfwXBeDtDxytagSwx9qpA1EObK5ErsvDcR-Z2ui7iIQtnZ8u9K73n8Lie0CT4ZbLNBU6dE-ttboponKVRpBIzGHwMfdDADWAUxreFcDbSUx5bPi9rIxr_luL8RMXHKABFbiL96wPnnM5bHblUTRkzrsGALOnIIpBEE_YUmumWVd0-o5W-iKXFoKzEOuF9a1Lg5TE1PbAI5npi",
+        "emphasis": "square"
+      },
+      {
+        "title": "View Repos",
+        "stack": "See 40+ more on GitHub",
+        "cta": "https://github.com",
+        "emphasis": "cta"
+      }
+    ]
+  },
+  "about": {
+    "headline": "I believe that good code is readable. It doesn't hide behind complexity but stands on logic and efficiency.",
+    "paragraphs": [
+      "With over 8 years of experience, I've had the privilege of architecting systems for startups and established tech companies. My approach is deeply rooted in performance and scalability, while keeping the codebase maintainable for future developers.",
+      "When I'm not pushing commits to Git, you can find me exploring vintage electronics, reading sci-fi novels, or optimizing my home server setup."
+    ],
+    "expertise": [
+      "Full Stack Development",
+      "System Architecture",
+      "Cloud Solutions (AWS/GCP)",
+      "Technical Consulting"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com"
+      },
+      {
+        "label": "Twitter / X",
+        "href": "https://twitter.com"
+      },
+      {
+        "label": "Stack Overflow",
+        "href": "https://stackoverflow.com"
+      }
+    ]
+  },
+  "stack": {
+    "intro": "I pair pragmatic architecture with a fast feedback loop so teams ship reliably without sacrificing quality.",
+    "pillars": [
+      "Low-latency APIs",
+      "Scalable frontends",
+      "Cloud-native delivery",
+      "Developer experience"
+    ],
+    "tooling": [
+      {
+        "category": "Frontend",
+        "items": ["React", "Next.js", "Tailwind", "Vite", "TanStack Query", "SWR"]
+      },
+      {
+        "category": "Backend",
+        "items": ["Node.js", "FastAPI", "Go", "PostgreSQL", "MongoDB", "Redis"]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "items": ["AWS", "GCP", "Docker", "Kubernetes", "Terraform", "CI/CD pipelines"]
+      },
+      {
+        "category": "Quality",
+        "items": ["Playwright", "Jest", "Cypress", "k6", "OpenTelemetry", "Feature flags"]
+      }
+    ],
+    "principles": [
+      "Performance budgets baked into CI",
+      "Observability-first instrumentation",
+      "Accessible interfaces by default",
+      "Documentation that ships with the code"
+    ]
+  },
+  "contact": {
+    "email": "hello@alex.dev",
+    "cta": "Let's build something.",
+    "localTime": "10:42 AM",
+    "location": "San Francisco, CA",
+    "note": "Always open to consulting engagements, fractional CTO roles, and high-impact delivery sprints.",
+    "availability": "Currently booking for March — April"
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Experience - Portfolio</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ede6db",
+                        "accent": "#8fbdd3",
+                        "background-light": "#f7f7f6",
+                        "background-dark": "#1c1a16",
+                        "text-main": "#161513",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-primary text-text-main font-display antialiased selection:bg-accent selection:text-white overflow-x-hidden relative">
+<div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 w-auto">
+<div class="shadow-xl rounded-full overflow-hidden border border-text-main/10">
+<button class="flex items-center justify-center gap-3 h-14 px-6 bg-accent text-text-main text-base font-bold leading-normal tracking-wide hover:brightness-105 transition-all cursor-move">
+<span class="material-symbols-outlined text-2xl">drag_indicator</span>
+<span class="whitespace-nowrap pr-2">Menu</span>
+<div class="h-4 w-px bg-black/20 mx-1"></div>
+<a class="font-medium hover:underline cursor-pointer" href="#">Projects</a>
+<a class="font-medium hover:underline cursor-pointer" href="#">Experience</a>
+<a class="font-medium hover:underline cursor-pointer" href="#">Contact</a>
+</button>
+</div>
+</div>
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="flex items-center justify-between whitespace-nowrap px-8 py-6 md:px-12 lg:px-20 border-b border-text-main/5">
+<div class="flex items-center gap-2 text-text-main">
+<span class="material-symbols-outlined text-3xl">terminal</span>
+<h2 class="text-xl font-black tracking-tighter uppercase">Alex.Dev</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<button class="flex items-center justify-center rounded-full h-10 px-6 border-2 border-text-main text-text-main text-sm font-bold hover:bg-text-main hover:text-primary transition-colors">
+<span>Hire Me</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col grow px-6 md:px-12 lg:px-20 pb-32">
+<section class="w-full pt-16 pb-12 md:pt-24 md:pb-20 border-b border-text-main/10">
+<div class="flex flex-col gap-6 max-w-4xl">
+<div class="flex items-center gap-3 opacity-60">
+<span class="h-px w-8 bg-text-main"></span>
+<span class="text-sm font-bold uppercase tracking-widest">Professional History</span>
+</div>
+<h1 class="text-5xl md:text-7xl font-black leading-[0.9] tracking-tighter text-text-main">
+                Building legacy,<br/>one commit at a time.
+            </h1>
+<p class="text-xl font-medium leading-relaxed text-text-main/80 max-w-2xl mt-4">
+                A chronicle of technical challenges solved, systems architected, and scalable products shipped over the last decade in the software industry.
+            </p>
+<div class="pt-6">
+<a class="inline-flex items-center gap-2 text-base font-bold border-b-2 border-text-main pb-1 hover:text-accent hover:border-accent transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">download</span>
+                    Download Full Resume (PDF)
+                </a>
+</div>
+</div>
+</section>
+<section class="flex flex-col">
+<div class="group relative flex flex-col md:flex-row gap-8 md:gap-16 py-16 border-b border-text-main/10 hover:bg-white/30 transition-colors -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-20 lg:px-20">
+<div class="w-full md:w-1/4 shrink-0 flex flex-col pt-1">
+<div class="text-5xl font-black text-accent/40 group-hover:text-accent transition-colors select-none">01</div>
+<div class="text-lg font-bold mt-3">2022 — Present</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-50 mt-1">San Francisco, CA</div>
+</div>
+<div class="w-full md:w-3/4 flex flex-col gap-6">
+<div>
+<h3 class="text-3xl font-bold text-text-main">Senior Full Stack Engineer</h3>
+<h4 class="text-xl font-semibold opacity-70 mt-1">TechNova Solutions</h4>
+</div>
+<p class="text-lg leading-relaxed text-text-main/90 max-w-3xl">
+                    Spearheading the migration of legacy monoliths to microservices, improving system uptime by 99.9%. Leading a team of 5 developers in re-architecting the core payment processing pipeline for high-volume transactions.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-text-main/80">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent text-sm mt-1">check_circle</span>
+<p class="text-sm">Reduced API latency by 40% through Redis caching strategies and query optimization.</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent text-sm mt-1">check_circle</span>
+<p class="text-sm">Implemented CI/CD pipelines reducing deployment time from 1 hour to 10 minutes.</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent text-sm mt-1">check_circle</span>
+<p class="text-sm">Architected a real-time notification system using WebSockets and Event-Driven Architecture.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-3 mt-2">
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">React</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">Node.js</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">PostgreSQL</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">AWS</span>
+</div>
+</div>
+</div>
+<div class="group relative flex flex-col md:flex-row gap-8 md:gap-16 py-16 border-b border-text-main/10 hover:bg-white/30 transition-colors -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-20 lg:px-20">
+<div class="w-full md:w-1/4 shrink-0 flex flex-col pt-1">
+<div class="text-5xl font-black text-accent/40 group-hover:text-accent transition-colors select-none">02</div>
+<div class="text-lg font-bold mt-3">2019 — 2022</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-50 mt-1">Remote / NYC</div>
+</div>
+<div class="w-full md:w-3/4 flex flex-col gap-6">
+<div>
+<h3 class="text-3xl font-bold text-text-main">Software Engineer</h3>
+<h4 class="text-xl font-semibold opacity-70 mt-1">Streamline Data</h4>
+</div>
+<p class="text-lg leading-relaxed text-text-main/90 max-w-3xl">
+                    Developed and maintained customer-facing dashboards for data analytics. Collaborated closely with product managers and designers to deliver intuitive user interfaces for complex data sets.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-text-main/80">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent text-sm mt-1">check_circle</span>
+<p class="text-sm">Built reusable component library used across 4 different internal products.</p>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-accent text-sm mt-1">check_circle</span>
+<p class="text-sm">Integrated third-party APIs (Stripe, Twilio) to enhance platform functionality.</p>
+</div>
+</div>
+<div class="flex flex-wrap gap-3 mt-2">
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">Vue.js</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">Python</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">Docker</span>
+</div>
+</div>
+</div>
+<div class="group relative flex flex-col md:flex-row gap-8 md:gap-16 py-16 border-b border-text-main/10 hover:bg-white/30 transition-colors -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-20 lg:px-20">
+<div class="w-full md:w-1/4 shrink-0 flex flex-col pt-1">
+<div class="text-5xl font-black text-accent/40 group-hover:text-accent transition-colors select-none">03</div>
+<div class="text-lg font-bold mt-3">2017 — 2019</div>
+<div class="text-sm font-bold uppercase tracking-widest opacity-50 mt-1">Austin, TX</div>
+</div>
+<div class="w-full md:w-3/4 flex flex-col gap-6">
+<div>
+<h3 class="text-3xl font-bold text-text-main">Junior Web Developer</h3>
+<h4 class="text-xl font-semibold opacity-70 mt-1">Creative Agency X</h4>
+</div>
+<p class="text-lg leading-relaxed text-text-main/90 max-w-3xl">
+                    Started my career building responsive websites for small businesses and e-commerce brands. Gained strong foundational knowledge in semantic HTML, CSS architecture, and vanilla JavaScript.
+                </p>
+<div class="flex flex-wrap gap-3 mt-2">
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">HTML/CSS</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">JavaScript</span>
+<span class="px-3 py-1 bg-white border border-text-main/10 rounded text-xs font-bold uppercase tracking-wider text-text-main/70">WordPress</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20">
+<h2 class="text-sm font-bold uppercase tracking-widest mb-10 text-center opacity-60">Core Technologies</h2>
+<div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+<div class="flex flex-col items-center gap-2 group cursor-default">
+<span class="material-symbols-outlined text-4xl group-hover:text-accent transition-colors">code</span>
+<span class="font-bold">TypeScript</span>
+</div>
+<div class="flex flex-col items-center gap-2 group cursor-default">
+<span class="material-symbols-outlined text-4xl group-hover:text-accent transition-colors">data_object</span>
+<span class="font-bold">React/Next</span>
+</div>
+<div class="flex flex-col items-center gap-2 group cursor-default">
+<span class="material-symbols-outlined text-4xl group-hover:text-accent transition-colors">cloud</span>
+<span class="font-bold">AWS</span>
+</div>
+<div class="flex flex-col items-center gap-2 group cursor-default">
+<span class="material-symbols-outlined text-4xl group-hover:text-accent transition-colors">terminal</span>
+<span class="font-bold">Node.js</span>
+</div>
+<div class="flex flex-col items-center gap-2 group cursor-default">
+<span class="material-symbols-outlined text-4xl group-hover:text-accent transition-colors">database</span>
+<span class="font-bold">SQL</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-[#1c1a16] text-[#ece5da] px-6 md:px-12 lg:px-20 py-20">
+<div class="flex flex-col gap-12">
+<div class="flex flex-col gap-2">
+<p class="text-sm font-bold uppercase tracking-widest opacity-60">Have a project?</p>
+<a class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter hover:text-accent transition-colors" href="mailto:hello@alex.dev">
+                        Let's build<br/>something.
+                    </a>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 pt-12 border-t border-white/10">
+<div class="flex flex-col gap-1">
+<span class="font-bold text-lg">Alex.Dev</span>
+<span class="opacity-60 text-sm">© 2024 All Rights Reserved.</span>
+</div>
+<div class="flex gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="text-sm">Local time: 10:42 AM</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span class="text-sm">San Francisco, CA</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
